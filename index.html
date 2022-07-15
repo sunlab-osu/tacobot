@@ -21,42 +21,35 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand text-danger" href="#">
-          <img
-            src="img/o-block-buckeye.png"
-            width="30.8"
-            height="35.5"
-            class="d-inline-block align-top"
-            alt="o-block-buckeye"
-          />
-          OSU TacoBot
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div
-          class="collapse navbar-collapse d-flex justify-content-end"
+          class="collapse navbar-collapse d-flex justify-content-start"
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
+              <a class="navbar-brand text-danger" href="index.html">
+                <img
+                  src="img/o-block-buckeye.png"
+                  width="30.8"
+                  height="35.5"
+                  class="d-inline-block align-top"
+                  alt="o-block-buckeye"
+                />
+                OSU TacoBot
+              </a>
+            </li>
+            <li class="nav-item">
               <a
                 class="nav-link active text-danger"
                 aria-current="page"
-                href="#"
+                href="people.html"
                 >People</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-danger" href="#">Publications</a>
+              <a class="nav-link active text-danger" href="pub.html"
+                >Publications</a
+              >
             </li>
           </ul>
         </div>
@@ -64,8 +57,95 @@
     </nav>
 
     <div class="container">
-      <br />
-      content goes here
+      <div id="intro">
+        <br />
+        <img
+          src="img/tacobot-group.png"
+          class="rounded float-right"
+          alt="tacobot-group"
+          width="574.5"
+          height="342.6"
+        />
+
+        <h3>We are Team Tacobot &#127790;</h3>
+        <p style="line-height: 200%">
+          A team of students from The Ohio State University developed TacoBot
+          (TAsk-oriented COllaborative taskBOT), which won the 3rd place in the
+          first Alexa Prize TaskBot Challenge. Equipped with cutting-edge
+          natural language processing (NLP) technologies, TacoBot assists its
+          users to complete multi-step cooking and home improving tasks via an
+          user-centric collaborative multimodal dialogue experience. For more
+          details, please check our
+          <strong
+            ><a
+              class="text-danger"
+              href="https://www.amazon.science/alexa-prize/proceedings/bootstrapping-a-user-centered-task-oriented-dialogue-system"
+              >report</a
+            ></strong
+          >.
+        </p>
+        <br /><br /><br />
+      </div>
+
+      <div id="news">
+        <br />
+        <h4 class="text-danger">
+          <strong><i>News</i></strong>
+        </h4>
+
+        <ul>
+          <li>
+            <strong>OSU College of Engineering</strong>:
+            <a
+              class="text-danger"
+              href="https://engineering.osu.edu/news/2022/07/buckeyes-excel-amazon-alexa-prize-taskbot-challenge"
+              >Buckeyes excel in Amazon Alexa Prize TaskBot Challenge</a
+            >
+          </li>
+          <li>
+            <strong>OSU CSE</strong>:
+            <a
+              class="text-danger"
+              href="https://cse.osu.edu/news/2022/06/osu-tacobot-team-won-third-place-honor-inaugural-alexa-prize-taskbot-challenge"
+              >OSU TacoBot Team won the third-place honor in the inaugural Alexa
+              Prize TaskBot Challenge</a
+            >
+          </li>
+          <li>
+            <strong>Amazon Science</strong>:
+            <a
+              class="text-danger"
+              href="https://www.amazon.science/alexa-prize/three-top-performers-emerge-in-inaugural-alexa-prize-taskbot-challenge"
+              >Three top performers emerge in inaugural Alexa Prize TaskBot
+              Challenge</a
+            >
+          </li>
+        </ul>
+        <hr />
+      </div>
+
+      <div id="AP21-22">
+        <br />
+        <h4 class="text-danger">
+          <strong
+            ><i>1st Alexa Prize TaskBot Challenge (2021 - 2022)</i></strong
+          >
+        </h4>
+        <p style="line-height: 200%">
+          Early 2021, Amazon announced their new Alexa Prize TaskBot Challenge, in
+          which we competed with nine other teams to develop interactive agents
+          that assist customers in completing tasks requiring multiple steps and
+          decisions. <br />
+          Feedback from real Alexa users guided our research on dialogue systems,
+          such as natural language understanding, conversational search engine,
+          and dialogue response generation. <br />
+          In June 2022, TacoBot won the 3rd place (of 10 teams) and was the only
+          award-winning team in the U.S. <br />
+        </p>
+        <hr />
+      </div>
+
+      <!--<div id="talk">Talk video can go here</div>-->
     </div>
   </body>
 </html>
